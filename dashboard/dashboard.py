@@ -6,7 +6,7 @@ import plotly.express as px
 import numpy as np
 
 # Konfigurasi Layout
-st.set_page_config(page_title="Air Quality Dashboard", layout="wide")
+st.set_page_config(page_title="Air Quality Aotizhongxin Dashboard", layout="wide")
 
 # Judul Dashboard
 st.title("🌍 Air Quality Dashboard")
