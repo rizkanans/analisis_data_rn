@@ -15,7 +15,7 @@ st.markdown("Dibuat dengan ❤️ oleh Data Analyst")
 # Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("main_data.csv")  # Pastikan file ada di direktori yang benar
+    df = pd.read_csv("dashboard/main_data.csv")  # Pastikan file ada di direktori yang benar
     df["date"] = pd.to_datetime(df["year"].astype(str) + "-" + df["month"].astype(str) + "-" + df["day"].astype(str) + " " + df["hour"].astype(str) + ":00")
     return df
 
